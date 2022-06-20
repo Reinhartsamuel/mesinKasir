@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kasir</title>
+    <link rel="stylesheet" href="styleKasir.css" />
+  </head>
+  <body>
+    <h1>Selamat datang di Toko</h1>
+    <hr />
+    <div class="body1">
+      <h3>Silahkan pilih pesanan:</h3>
+      <table>
+        <tr>
+          <td>Produk</td>
+          <td>Jumlah</td>
+          <td>Harga</td>
+        </tr>
+        <tr>
+          <td>ProdukA</td>
+          <td><input id="jumlahA" type="number" min="0" value="0" /></td>
+          <td>Rp 250.000,-</td>
+        </tr>
+        <tr>
+          <td>ProdukB</td>
+          <td><input id="jumlahB" type="number" min="0" value="0" /></td>
+          <td>Rp 250.000,-</td>
+        </tr>
+        <tr>
+          <td>ProdukC</td>
+          <td><input id="jumlahC" type="number" min="0" value="0" /></td>
+          <td>Rp 250.000,-</td>
+        </tr>
+        <tr>
+          <td>ProdukD</td>
+          <td><input id="jumlahD" type="number" min="0" value="0" /></td>
+          <td>Rp 250.000,-</td>
+        </tr>
+        <tr>
+          <td>ProdukE</td>
+          <td><input id="jumlahE" type="number" min="0" value="0" /></td>
+          <td>Rp 250.000,-</td>
+        </tr>
+        <tr>
+          <td>ProdukF</td>
+          <td><input id="jumlahF" type="number" min="0" value="0" /></td>
+          <td>Rp 250.000,-</td>
+        </tr>
+        <tr>
+          <td>ProdukG</td>
+          <td><input id="jumlahG" type="number" min="0" value="0" /></td>
+          <td>Rp 250.000,-</td>
+        </tr>
+      </table>
+      <div class="button">
+        <button onclick="jumlah()">Proses</button>
+        <button onclick="diskon()">Hapus</button>
+      </div>
+    </div>
+
+    <br /><br />
+    <br />
+    <hr />
+
+    <div class="body2">
+      <label> Sub-Total </label>
+      <textarea id="subtotal"> </textarea> <br />
+      <label> Diskon </label>
+      <textarea id="diskon"> </textarea> <br />
+      <label> Bayar </label>
+      <textarea id="bayar"> </textarea> <br />
+      <label> PPN </label>
+      <textarea id="ppn"> </textarea> <br />
+      <label> Total </label>
+      <textarea id="total"> </textarea> <br />
+
+      <button id="lanjutkan" onclick="">Lanjutkan ke Pembayaran →</button>
+    </div>
+
+    <hr />
+    <br />
+
+    <script src="Kasir Js.js"></script>
+  </body>
+</html>
